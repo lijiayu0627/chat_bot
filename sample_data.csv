@@ -1,0 +1,37 @@
+object,category,price,delivery date
+Laptop,Electronics,1012.86,2 days
+Smartphone,Electronics,1171.63,1 days
+Headphones,Electronics,1570.26,4 days
+Camera,Electronics,1097.48,2 days
+Tablet,Electronics,843.57,7 days
+Monitor,Electronics,1944.6,2 days
+Toothpaste,Daily Essentials,5.13,6 days
+Toothbrush,Daily Essentials,14.36,5 days
+Shampoo,Daily Essentials,14.41,5 days
+Soap,Daily Essentials,7.12,4 days
+Notebook,Office Supplies,22.54,6 days
+Chair,Office Supplies,41.62,1 days
+Desk,Office Supplies,46.58,6 days
+Pen,Office Supplies,4.55,2 days
+Television,Electronics,1830.34,4 days
+Blender,Home Appliances,265.53,6 days
+T-Shirt,Clothing,36.23,1 days
+Shoes,Clothing,99.8,3 days
+Watch,Clothing,57.63,7 days
+Jacket,Clothing,26.03,2 days
+Hat,Clothing,36.54,4 days
+Backpack,Daily Essentials,6.67,6 days
+Vacuum Cleaner,Home Appliances,796.64,1 days
+Table Lamp,Home Appliances,832.68,4 days
+Microwave,Home Appliances,582.23,2 days
+Oven,Home Appliances,354.87,3 days
+Fridge,Home Appliances,392.38,4 days
+Washing Machine,Home Appliances,612.49,6 days
+Air Conditioner,Home Appliances,950.05,1 days
+Curtains,Home Decor,140.81,5 days
+Carpet,Home Decor,198.03,6 days
+Cushion,Home Decor,172.83,4 days
+Bookshelf,Furniture,845.85,2 days
+Sofa,Furniture,718.99,1 days
+Bed,Furniture,860.8,6 days
+Dining Table,Furniture,1272.78,4 days
