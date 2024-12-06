@@ -163,7 +163,7 @@ class GPTFineTuner:
 
 if __name__ == "__main__":
 
-    parser = argparse.ArgumentParser(description="Task Dispatcher")
+    parser = argparse.ArgumentParser(description="Fine Tune GPT")
     parser.add_argument('-k', '--key', type=str, required=True, help='Your OpenAI API Key')
     args = parser.parse_args()
     api_key = args.key

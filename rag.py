@@ -10,15 +10,15 @@ class RAGSystem:
         Retrieval-Augmented Generation (RAG) system that combines
         semantic search from product and FAQ databases with GPT model responses.
     """
-    def __init__(self, service_database, product_database, api_key):
+    def __init__(self, faq_database, product_database, api_key):
         """
               Initializes the RAG system.
 
               Args:
-                  service_database (ServiceDatabase): FAQ database instance.
+                  faq_database (ServiceDatabase): FAQ database instance.
                   product_database (ProductDatabase): Product database instance.
         """
-        self.service_database = service_database
+        self.faq_database = faq_database
         self.product_database = product_database
         self.message_history = []
         self.client = OpenAI(api_key=api_key)
@@ -40,10 +40,10 @@ class RAGSystem:
         """
         if initial:
             similar_knowledges, _ = self.product_database.search(query, top_k=10)
-            similar_qas, _ = self.service_database.search(query, top_k=3)
+            similar_qas, _ = self.faq_database.search(query, top_k=3)
             context = "\n\n".join(similar_knowledges + similar_qas)
         else:
-            similar_qas, _ = self.service_database.search(query, top_k=3)
+            similar_qas, _ = self.faq_database.search(query, top_k=3)
             context = "\n\n".join(similar_qas)
 
         return context

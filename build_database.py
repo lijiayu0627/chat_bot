@@ -8,7 +8,7 @@ import kagglehub
 import os
 
 
-class ServiceDatabase:
+class FAQDatabase:
     """
         Manages a FAQ database with semantic similarity search
         using SentenceTransformer and FAISS.
