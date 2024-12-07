@@ -51,6 +51,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     api_key = args.key
     # Start the RPyC threaded server
-    server = ThreadedServer(AnswerGeneration, port=18862)
+    shared_service = AnswerGeneration()
+    server = ThreadedServer(shared_service, port=18862)
     print("AnswerService is running on port 18862...")
     server.start()

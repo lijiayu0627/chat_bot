@@ -1,6 +1,6 @@
 # E-commerce Customer Service Chatbot
 ## Motivation
-E-commerce businesses often struggle with handling repetitive customer inquiries, which can be time-consuming and impact the customer experience. 
+E-commerce businesses often struggle with handling repetitive customer inquiries, which can be time-consuming and impact the customer experiences. 
 
 To solve this, I propose an AI-powered assistant designed for e-commerce, providing quick and accurate responses to improve customer service efficiency.
 
