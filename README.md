@@ -33,6 +33,11 @@ By combining retrieval from the knowledge base with the fine-tuned language mode
 
 ## Running Guidline
 
+### Install Dependencies
+```buildoutcfg
+pip install -r requirements.txt
+```
+
 ### Fine-tune GPT
 ```buildoutcfg
 python finetune_GPT.py -k <Your OpenAI API Key>
@@ -49,4 +54,9 @@ python answer_generation.py -k <Your OpenAI API Key>
 ### Start Chatbot Web Server
 ```buildoutcfg
 uvicorn main:app --reload
+```
+
+### Run Client
+```buildoutcfg
+python client.py
 ```
